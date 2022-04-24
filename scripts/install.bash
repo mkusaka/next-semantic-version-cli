@@ -2,7 +2,7 @@
 
 set -e -o pipefail
 
-version="${1:-0.0.4}"
+version="${1:-0.0.5}"
 
 if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
     echo "Given version '${version}' does not match to regex" '^[0-9]+\.[0-9]+\.[0-9]+$' >&2
