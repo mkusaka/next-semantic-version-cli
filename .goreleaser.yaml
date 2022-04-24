@@ -10,7 +10,7 @@ builds:
       - linux
       - windows
       - darwin
-    dir: cmd
+    dir: cmd/nvsc
 archives:
   - replacements:
       darwin: Darwin
