@@ -11,6 +11,7 @@ builds:
       - windows
       - darwin
     dir: cmd
+    binary: nsv
 archives:
   - replacements:
       darwin: Darwin
